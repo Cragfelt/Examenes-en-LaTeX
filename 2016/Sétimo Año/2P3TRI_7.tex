@@ -1,0 +1,575 @@
+\documentclass[12pt, fleqn]{article}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage{mathexam}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{textcomp}
+\usepackage[utf8x]{inputenc}
+\usepackage{pgfplots}
+\usepackage{wasysym}
+\usepackage{graphicx}
+\usepackage{tcolorbox}
+\usepackage{pdfpages}
+
+\usepackage{pstricks-add}
+\usepackage{pst-solides3d}
+
+\pgfplotsset{width=7cm,compat=1.11}
+\usepackage{pgf,tikz}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+
+\pagestyle{myheadings}
+
+\textheight=26cm
+\textwidth=17cm
+\topmargin=-1.0cm
+\oddsidemargin=0cm
+\parindent=0mm
+
+\input mycom.tex
+
+\let\ds\displaystyle
+
+\begin{document}
+
+\pagenumbering{arabic}
+\setcounter{page}{2}
+
+\vspace{-1.5cm}
+
+
+\sf
+
+{\bf I PARTE. A. Selección Única.} Cada una de las siguientes preguntas tiene una opción correcta, debe marcar con una equis dentro del paréntesis (X). (Total $20$ puntos, $1$ punto cada acierto).
+%\vp
+
+\benu %SELECCIÓN ÚNICA
+\item Si dos de los ángulos internos de un triángulo miden $90\degre$ y $32\degre$, entonces la medida del tercer ángulo interno es \vp
+
+\benu
+\item[] \opc $58\degre$\vf
+\item[] \opc $62\degre$\vf
+\item[] \opc $122\degre$\vf
+\item[] \opc $180\degre$
+\eenu
+\vs
+
+\item ¿Cuál terna de números corresponde a las medidas de los lados de un triángulo?
+\vp
+
+\benu
+\item[] \opc $(5,1,2)$\vf
+\item[] \opc $(1,3,5)$\vf
+\item[] \opc $(9,3,8)$\vf
+\item[] \opc $(2,7,10)$
+\eenu
+\vs
+
+\item Dos de los lados de un triángulo miden $8$ y $12$, entonces la medida del tercer lado puede ser
+\vp
+
+\benu
+\item[] \opc $2$\vf
+\item[] \opc $3$\vf
+\item[] \opc $4$\vf
+\item[] \opc $5$
+\eenu
+\vs
+
+\item En un triángulo equilátero, la medida de un ángulo externo es de
+\vp
+
+\benu
+\item[] \opc $45\degre$\vf
+\item[] \opc $60\degre$\vf
+\item[] \opc $90\degre$\vf
+\item[] \opc $120\degre$
+\eenu
+
+\pagebreak
+
+\item Si en un triángulo dos de las medidas de los ángulos internos son de $\,40\degre\,$ cada uno, entonces la medida del tercer ángulo interno es de \vp
+
+\benu
+\item[] \opc $45\degre$\vf
+\item[] \opc $80\degre$\vf
+\item[] \opc $100\degre$\vf
+\item[] \opc $180\degre$
+\eenu
+\vs
+
+\item Un triángulo que posee un ángulo interno obtuso se denomina \vp
+
+\benu
+\item[] \opc rectángulo. \vf
+\item[] \opc equiángulo. \vf
+\item[] \opc acutángulo. \vf
+\item[] \opc obtusángulo.
+\eenu
+\vs
+
+\item La suma de las medidas de los ángulos externos de todo triángulo es \vp
+
+\benu
+\item[] \opc $60\degre$ \vf
+\item[] \opc $90\degre$ \vf
+\item[] \opc $180\degre$ \vf
+\item[] \opc $360\degre$
+\eenu\vs
+
+\item Un triángulo isósceles es aquel que posee \vp
+
+\benu
+\item[] \opc tres lados congruentes. \vf
+\item[] \opc dos ángulos congruentes. \vf
+\item[] \opc tres ángulos de igual medida. \vf
+\item[] \opc dos lados de diferente medida.
+\eenu
+
+\pagebreak
+
+\item De acuerdo con los datos de la figura, ¿cuál es la medida del $\angle\,\alpha$?
+\vspace{-2mm}
+
+  \begin{minipage}{\linewidth}
+      \begin{minipage}{0.45\linewidth}
+          \benu
+            \item[] \opc $35\degre$ \vf
+            \item[] \opc $45\degre$ \vf
+            \item[] \opc $65\degre$ \vf
+            \item[] \opc $115\degre$
+            \eenu
+      \end{minipage}
+      \hspace{-1.5cm}
+      \begin{minipage}{0.45\linewidth}
+         \begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm, scale=0.75]
+            \clip(-4,-5) rectangle (8,4);
+            \draw [shift={(1.124,1.725)}] (0,0) -- (-46.769:0.6) arc (-46.769:53.923:0.6) -- cycle;
+            \draw [shift={(-0.536,-0.553)}] (0,0) -- (-11.160:0.6) arc (-11.160:53.923:0.6) -- cycle;
+            \draw [shift={(4.133,-1.475)}] (0,0) -- (-46.769:0.6) arc (-46.769:-11.160:0.6) -- cycle;
+            \draw [<->](-1.24,-1.52)-- (1.82,2.68);
+            \draw [<->](0.34,2.56)-- (5.36,-2.78);
+            \draw [<->](-1.62,-0.34)-- (5.78,-1.8);
+            \begin{scriptsize}
+            \draw[color=black] (2.5,1.8) node {\normalsize $100\degre$};
+            \draw[color=black] (0.3,-0.14) node {\normalsize $\alpha$};
+            \draw[color=black] (5.45,-2.1) node {\normalsize $35\degre$};
+            \end{scriptsize}
+        \end{tikzpicture}
+      \end{minipage}
+  \end{minipage}
+\vspace{-1cm}
+
+\item De acuerdo con los datos de la figura, ¿cuánto mide el $\angle\,\theta$?
+
+\vspace{-3cm}
+\begin{minipage}{\linewidth}
+      \begin{minipage}{0.45\linewidth}
+        \benu
+            \item[] \opc $32\degre$ \vf
+            \item[] \opc $64\degre$ \vf
+            \item[] \opc $84\degre$ \vf
+            \item[] \opc $96\degre$
+        \eenu
+      \end{minipage}
+      \hspace{-1.5cm}
+      \begin{minipage}{0.45\linewidth}
+         \begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+            \clip(-4.3,-5.04) rectangle (6,6);
+            \draw [shift={(0.74,-1.64)},line width=0.4pt] (0,0) -- (0.:0.6) arc (0.:105.7:0.6) -- cycle;
+            \draw [shift={(-0.48,2.7)}] (0,0) -- (-115.188:0.6) arc (-115.1883:-74.3:0.6) -- cycle;
+            \draw [shift={(-2.54,-1.68)}] (0,0) -- (0.698:0.6) arc (0.698:64.811:0.6) -- cycle;
+            \draw [line width=0.4pt] (-2.54,-1.68)-- (-0.48,2.7);
+            \draw [line width=0.4pt] (-0.48,2.7)-- (0.74,-1.64);
+            \draw [line width=0.4pt] (0.74,-1.64)-- (-2.54,-1.68);
+            \draw [dash pattern=on 3pt off 3pt] (0.74,-1.64)-- (2.4,-1.64);
+            \begin{scriptsize}
+            \draw[color=black] (1.4,-1) node {\normalsize $\theta$};
+            \draw[color=black] (-0.62,1.5) node {\normalsize $32\textrm{\degre}$};
+            \draw[color=black] (-1.6,-1.16) node {\normalsize $64\textrm{\degre}$};
+            \end{scriptsize}
+        \end{tikzpicture}
+      \end{minipage}
+\end{minipage}
+\vspace{-3cm}
+
+\item Considere las siguientes afirmaciones. \vp
+
+\begin{tcolorbox}
+\benu
+\item[I.] Todo triángulo equilátero es acutángulo.
+\item[II.] Un triángulo isósceles puede ser obtusángulo.
+\item[III.] Un triángulo rectángulo puede ser también isósceles.
+\item[IV.] Un triángulo puede tener dos ángulos externos agudos.
+\eenu
+\end{tcolorbox}
+
+De ellas, ¿cuáles son {\sc verdaderas}?
+\benu
+\item[] \opc I y II
+\item[] \opc II y III
+\item[] \opc I, II y III
+\item[] \opc I, III y IV
+\eenu
+\vs
+
+\pagebreak
+
+\item Dados tres segmentos de longitudes $40\,cm, 25\,cm$ y $30\,cm$, con certeza podemos afirmar que se forma un triángulo \vp
+
+\benu
+\item[] \opc escaleno. \vf
+\item[] \opc isósceles. \vf
+\item[] \opc equilátero.\vf
+\item[] \opc rectángulo.
+\eenu\vp
+
+\item  Considere las siguientes proposiciones. \vp
+
+\begin{tcolorbox}
+\bc
+\benu
+\item[I.] Un triángulo puede tener tres ángulos rectos.
+\item[II.] Un triángulo puede tener tres ángulos agudos.
+\item[III.] Un triángulo puede tener tres ángulos obtusos.
+\eenu
+\ec
+\end{tcolorbox}
+
+De ellas, ¿cuáles son siempre {\sc verdaderas}?
+\benu
+\item[] \opc Todas.
+\item[] \opc Solo I.
+\item[] \opc Solo I y II.
+\item[] \opc Solo II y III.
+\eenu
+\vp
+
+\item  Considere las siguientes proposiciones. \vp
+
+\begin{tcolorbox}
+\benu
+\item[I.] Un triángulo escaleno puede ser acutángulo.
+\item[II.] Un triángulo isósceles puede ser acutángulo.
+\item[III.] Todo triángulo equilátero es también isósceles.
+\item[IV.] Todo triángulo rectángulo tiene dos ángulos internos agudos.
+\eenu
+\end{tcolorbox}
+\vp
+
+De ellas, ¿cuáles son {\sc verdaderas}? \vp
+
+\benu
+\item[] \opc Todas. \vf
+\item[] \opc Solo I y II. \vf
+\item[] \opc Solo I y II. \vf
+\item[] \opc Solo III y IV. \vf
+\eenu
+
+\pagebreak
+
+\item De acuerdo con la terna $(16,x,10)$, ¿cuál puede ser un valor de $x$ para que se forme un triángulo con esas medidas? \vp
+
+\benu
+\item[] \opc $5$\vf
+\item[] \opc $6$\vf
+\item[] \opc $10$\vf
+\item[] \opc $26$
+\eenu
+\vs
+
+\item Para que exista un triángulo, en la terna $(6,12,x)$ un posible valor para $x$ es \vp
+
+\benu
+\item[] \opc $5$\vf
+\item[] \opc $6$ \vf
+\item[] \opc $8$ \vf
+\item[] \opc $18$
+\eenu
+\vs
+
+\item Si en un triángulo sus tres ángulos internos son congruentes, el triángulo se denomina \vp
+
+\benu
+\item[] \opc escaleno. \vf
+\item[] \opc isósceles. \vf
+\item[] \opc equilátero. \vf
+\item[] \opc obtusángulo.
+\eenu
+\vs
+
+\item Si $71\degre$ y $124\degre$ son medidas de ángulos externos de un triángulo, el otro ángulo externo mide \vp
+
+\benu
+\item[] \opc $15\degre$\vf
+\item[] \opc $165\degre$ \vf
+\item[] \opc $195\degre$ \vf
+\item[] \opc $360\degre$
+\eenu
+\vs
+
+\pagebreak
+
+\item Si $65\degre$ y $27\degre$ son medidas de ángulos internos de un triángulo, el otro ángulo interno mide \vp
+
+\benu
+\item[] \opc $88\degre$\vf
+\item[] \opc $92\degre$ \vf
+\item[] \opc $180\degre$ \vf
+\item[] \opc $360\degre$
+\eenu
+\vs
+
+
+\item Una terna que representa las medidas de los lados de un triángulo isósceles es \vp
+
+\benu
+\item[] \opc $(3,4,5)$\vf
+\item[] \opc $(6,8,6)$ \vf
+\item[] \opc $(6,6,16)$ \vf
+\item[] \opc $(10,10,20)$
+\eenu
+\vs
+
+\eenu
+
+%\pagebreak
+
+{\bf B. Respuesta Corta.} Escriba sobre el espacio en blanco la respuesta correcta según sea el caso. Sea ordenado y cuidadoso. (Total 15 puntos, 1 punto cada respuesta correcta).\vs
+
+\benu
+\item De acuerdo con los datos de la figura adjunta, si $\ell_1\parallel\ell_2$, determine y escriba la medida de cada uno de los ángulos indicados. \hfill{\bf (5 puntos)} \vs\vs\vs
+
+\begin{minipage}{\linewidth}
+\vspace{-.5cm}
+      \begin{minipage}{0.45\linewidth}
+        \benu
+            \item[] $m\,\angle\,\alpha=$ \compl.\vp
+            \item[] $m\,\angle\,\lambda=$ \compl.\vp
+            \item[] $m\,\angle\,\beta=$ \compl.\vp
+            \item[] $m\,\angle\,\theta=$ \compl.\vp
+            \item[] $m\,\angle\,\delta=$ \compl.
+        \eenu
+      \end{minipage}
+      \hspace{1cm}
+      \begin{minipage}{0.45\linewidth}
+         \begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+            \clip(-1.02,-0.82) rectangle (6.1,5.36);
+            \draw [<->](-0.6,3.16)-- (5.5,3.16);
+            \draw [<->](-0.6,1.54)-- (5.5,1.54);
+            \draw [<->](0.2,-0.58)-- (4.28,5.02);
+        \begin{scriptsize}
+            \draw[color=black] (5.28,3.6) node {\ns $\ell_1$};
+            \draw[color=black] (5.28,2) node {\ns $\ell_2$};
+            \draw[color=black] (3.8,5.) node {\ns $\ell_3$};
+            \draw[color=black] (3.54,3.5) node {\ns $\lambda$};
+            \draw[color=black] (2.24,2.78) node {\ns $\alpha$};
+            \draw[color=black] (3.29,2.78) node {\ns $104\degre$};
+            \draw[color=black] (1.55,1.85) node {\ns $\beta$};
+            \draw[color=black] (2.35,1.85) node {\ns $\delta$};
+            \draw[color=black] (1.2,1.2) node {\ns $\theta$};
+        \end{scriptsize}
+        \end{tikzpicture}
+      \end{minipage}
+\end{minipage}
+
+\vs\vs
+\pagebreak
+
+\item De acuerdo con los datos de la siguiente figura, determine y escriba el nombre que recibe cada una de las parejas de ángulos. \hfill{\bf (5 puntos)} \vs\vs\vs
+
+\begin{minipage}{\linewidth}
+      \begin{minipage}{0.45\linewidth}
+            \begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+            \clip(-1.02,-0.82) rectangle (6.1,5.36);
+            \draw [<->](-0.6,3.16)-- (5.5,3.16);
+            \draw [<->](-0.6,1.54)-- (5.5,1.54);
+            \draw [<->](4.28,-0.58)-- (0.2,5.02);
+            \begin{scriptsize}
+            \draw[color=black] (5.28,3.6) node {\ns $\ell_1$};
+            \draw[color=black] (5.28,2) node {\ns $\ell_2$};
+            \draw[color=black] (0.85,5.) node {\ns $\ell_3$};
+            
+            \draw[color=black] (1.75,3.5) node {\ns $\beta$};
+            \draw[color=black] (1,3.5) node {\ns $\alpha$};
+            \draw[color=black] (1.35,2.85) node {\ns $\omega$};
+            \draw[color=black] (2.27,2.85) node {\ns $\delta$};
+            \draw[color=black] (2.15,1.85) node {\ns $\varepsilon$};
+            \draw[color=black] (2.9,1.85) node {\ns $\pi$};
+            \draw[color=black] (2.45,1.2) node {\ns $\theta$};
+            \draw[color=black] (3.4,1.2) node {\ns $\lambda$};
+            \end{scriptsize}
+        \end{tikzpicture}
+      \end{minipage}
+      %\hspace{.5cm}      
+      \begin{minipage}{0.45\linewidth}
+        \benu
+            \item[] $\angle\,\beta$ y $\angle\,\theta$: \hrulefill.\vs
+            \item[] $\angle\,\delta$ y $\angle\,\pi$: \hrulefill.\vs
+            \item[] $\angle\,\varepsilon$ y $\angle\,\alpha$: \hrulefill.\vs
+            \item[] $\angle\,\beta$ y $\angle\,\theta$: \hrulefill.\vs
+            \item[] $\angle\,\pi$ y $\angle\,\omega$: \hrulefill.
+        \eenu
+      \end{minipage}
+\end{minipage}
+
+\vs\vs\vs
+
+\item De acuerdo con los datos de la figura adjunta, determine y escriba la medida de cada uno de los ángulos indicados. \hfill{\bf (5 puntos)}
+\vs\vs
+
+\begin{minipage}{\linewidth}
+      \begin{minipage}{0.45\linewidth}
+      \vspace{-1cm}
+        \benu
+            \item[] $m\,\angle\,\alpha=$ \compl.\vp
+            \item[] $m\,\angle\,\omega=$ \compl.\vp
+            \item[] $m\,\angle\,\beta=$ \compl.\vp
+            \item[] $m\,\angle\,\varepsilon=$ \compl.\vp
+            \item[] $m\,\angle\,\theta=$ \compl.
+        \eenu
+      \end{minipage}
+      \hspace{-.75cm}
+      \begin{minipage}{0.45\linewidth}
+        \begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+        \clip(1.52,-3.52) rectangle (10.5,5.56);
+        \draw [shift={(5.44,4.)}] (0,0) -- (5.389:0.6) arc (5.389:86.248:0.6) -- cycle;
+        \draw [shift={(8.62,4.3)}] (0,0) -- (5.262:0.6) arc (5.262:37.333:0.6) -- cycle;
+        \draw [shift={(8.62,4.3)}] (0,0) -- (37.333:0.6) arc (37.3331957381858:185.38931175997342:0.6) -- cycle;
+        \draw [shift={(5.241,1.466)}] (0,0) -- (39.979:0.6) arc (39.979:85.508:0.6) -- cycle;
+        \draw [shift={(4.92,-2.62)}] (0,0) -- (-44.215:0.6) arc (-44.215:85.508:0.6) -- cycle;
+        \draw [shift={(2.8,-0.58)}] (0,0) -- (39.979:0.6) arc (39.979:137.121:0.6) -- cycle;
+        \draw [shift={(2.8,-0.58)}] (0,0) -- (137.121:0.6) arc (137.121:222.336:0.6) -- cycle;
+        \draw [shift={(4.92,-2.62)}] (0,0) -- (85.508:0.6) arc (85.508:136.101:0.6) -- cycle;
+        \draw (2.8,-0.58)-- (8.62,4.3);
+        \draw (5.44,4.)-- (4.92,-2.62);
+        \draw (4.92,-2.62)-- (2.8,-0.58);
+        \draw (5.44,4.)-- (8.62,4.3);
+        \draw [->](8.62,4.3)-- (10.14,4.44);
+        \draw [->](8.62,4.3)-- (9.8,5.2);
+        \draw [->](5.44,4.)-- (5.52,5.22);
+        \draw [->](4.92,-2.62)-- (5.66,-3.34);
+        \draw [->](2.8,-0.58)-- (1.96,0.2);
+        \draw [->](2.8,-0.58)-- (1.9,-1.4);
+        \begin{scriptsize}
+        \draw[color=black] (6.3,4.7) node {\ns $80\textrm{\degre}$};
+        \draw[color=black] (9.74,4.7) node {\ns $\beta$};
+        \draw[color=black] (8.64,5.2) node {\ns $\theta$};
+        \draw[color=black] (5.8,2.32) node {\ns $45\textrm{\degre}$};
+        \draw[color=black] (5.8,-2.28) node {\ns $\varepsilon$};
+        \draw[color=black] (2.8,0.34) node {\ns $\omega$};
+        \draw[color=black] (1.85,-0.5) node {\ns $\alpha$};
+        \draw[color=black] (4.6,-1.66) node {\ns $50\textrm{\degre}$};
+        \end{scriptsize}
+    \end{tikzpicture}
+    \end{minipage}
+\end{minipage}
+
+\pagebreak
+
+\item De acuerdo con el siguiente plano cartesiano, escriba las coordenadas de los puntos que se le solicitan. \hfill{\bf (5 puntos)}\vs\vs
+
+\begin{minipage}{\linewidth}
+      \begin{minipage}{0.5\linewidth}
+      
+        {$A:$ \compl.\vs
+        
+        $B:$ \compl.\vs
+        
+        $C:$ \compl.\vs
+        
+        $D:$ \compl.\vs
+        
+        %$E:$ \compl.\vs
+        
+        Punto medio de $\overline{AB}$ \compl.}
+      \end{minipage}
+      \hspace{-.5cm}
+      \begin{minipage}{0.75\linewidth}
+\definecolor{cqcqcq}{rgb}{0.7529411764705882,0.7529411764705882,0.7529411764705882}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm,scale=.65]
+\draw [color=cqcqcq,dotted, xstep=1.0cm,ystep=1.0cm] (-6.84,-5.38) grid (5.98,5.96);
+\draw[<->,color=black] (-6,0.) -- (5.98,0.);
+\foreach \x in {-5,-4,-3,-2,-1,1,2,3,4,5}
+\draw[shift={(\x,0)},color=black] (0pt,2pt) -- (0pt,-2pt) node[below] {\footnotesize $\x$};
+\draw[<->,color=black] (0.,-5.38) -- (0.,5.96);
+\foreach \y in {-5,-4,-3,-2,-1,1,2,3,4,5}
+\draw[shift={(0,\y)},color=black] (2pt,0pt) -- (-2pt,0pt) node[left] {\footnotesize $\y$};
+\draw[color=black] (0pt,-10pt) node[right] {\footnotesize $0$};
+\clip(-6.84,-5.38) rectangle (5.98,5.96);
+\begin{scriptsize}
+\draw [fill=black] (-3.,2.) circle (1.75pt);
+\draw[color=black] (-3,2.6) node {\ns $A$};
+\draw [fill=black] (1.,-4.) circle (1.75pt);
+\draw[color=black] (1,-3.4) node {\ns $B$};
+\draw [fill=black] (-5.,0.) circle (1.75pt);
+\draw[color=black] (-5,0.6) node {\ns $C$};
+\draw [fill=black] (2.,5.) circle (1.75pt);
+\draw[color=black] (2.5,5) node {\ns $D$};
+%\draw [fill=black] (-4.,-3.) circle (1.75pt);
+%\draw[color=black] (-4.,-3.55) node {\ns $E$};
+\end{scriptsize}
+\end{tikzpicture}
+\end{minipage}
+\end{minipage}
+\eenu
+\vs\vs
+
+{\bf II PARTE. Desarrollo.} Resuelva los siguientes problemas con orden y claridad. En el espacio disponible deben aparecer todos los procedimientos que justifican la respuesta. (Total 20 puntos). \vs\vs
+
+\benu
+\item Dé un ejemplo de una terna numérica que represente las medidas de un triángulo escaleno y compruébelo mediante el uso de la Desigualdad Triangular. \hfill{\bf (5 puntos)}
+
+\pagebreak
+
+\item En el siguiente plano cartesiano grafique el cuadrilátero que se forma con los puntos dados. Además escriba en la tabla las coordenadas de 3 puntos interiores y 3 puntos exteriores. {\bf (10 puntos, un punto cada par ordenado).}
+\vp
+
+\begin{multicols}{2}
+\benu
+\item $M(-4,-3)$
+\item $A(-2,3)$
+\item $T(5,3)$
+\item $E(1,-2)$
+\eenu
+
+\begin{tabular}{|c|c|}
+\hline
+\bf Interiores & \bf Exteriores \\
+    \hline
+    & \\
+    \hline
+    & \\
+    \hline
+    & \\
+    \hline
+\end{tabular}
+
+\end{multicols}
+
+
+\bc
+\definecolor{cqcqcq}{rgb}{0.753,0.753,0.753}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\draw [color=cqcqcq,, xstep=1.0cm,ystep=1.0cm] (-5.78,-5.4) grid (5.66,5.48);
+\draw[->,color=black] (-5.78,0.) -- (5.66,0.);
+\foreach \x in {-5,-4,-3,-2,-1,1,2,3,4,5}
+\draw[shift={(\x,0)},color=black] (0pt,2pt) -- (0pt,-2pt) node[below] {\footnotesize $\x$};
+\draw[->,color=black] (0.,-5.4) -- (0.,5.48);
+\foreach \y in {-5,-4,-3,-2,-1,1,2,3,4,5}
+\draw[shift={(0,\y)},color=black] (2pt,0pt) -- (-2pt,0pt) node[left] {\footnotesize $\y$};
+\draw[color=black] (0pt,-10pt) node[right] {\footnotesize $0$};
+\clip(-5.78,-5.4) rectangle (5.66,5.48);
+\end{tikzpicture}
+\ec
+\vs\vs
+
+\item ¿Cuáles son las coordenadas del punto medio del segmento determinado por los puntos $(-4,7)$ y $(12,-5)$? \hfill{\bf (5 puntos)} \vs\vs\vs\vs\vs\vs\vs\vs\vs
+
+
+\eenu
+
+\end{document}
+
+

@@ -1,0 +1,319 @@
+\documentclass[12pt, fleqn]{article}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage{mathexam}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{textcomp}
+\usepackage[utf8x]{inputenc}
+\usepackage{pgfplots}
+\usepackage{wasysym}
+\usepackage{graphicx}
+\usepackage{tcolorbox}
+\usepackage{pdfpages}
+
+\usepackage{pstricks-add}
+\usepackage{pst-solides3d}
+
+\pgfplotsset{width=7cm,compat=1.11}
+\usepackage{pgf,tikz}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+
+\pagestyle{myheadings}
+
+\textheight=26cm
+\textwidth=17cm
+\topmargin=-1.0cm
+\oddsidemargin=0cm
+\parindent=0mm
+
+\input mycom.tex
+
+\let\ds\displaystyle
+
+\begin{document}
+
+\pagenumbering{arabic}
+\setcounter{page}{2} 
+
+\vspace{-1.5cm}
+
+
+\sf
+
+{\bf I PARTE. A. Selección Única.} Cada una de las siguientes preguntas tiene una opción correcta, debe marcar con una equis dentro del paréntesis (X). (Total $10$ puntos, $1$ punto cada acierto).
+%\vp
+
+\benu
+\item Dos ángulos opuestos por el vértice siempre son
+\vp
+
+\benu
+\item[] \opc adyacentes. \vf
+\item[] \opc congruentes. \vf
+\item[] \opc suplementarios.\vf
+\item[] \opc complementarios.
+\eenu
+\vs
+
+\item Dos ángulos que forman un par lineal son siempre
+\vp
+
+\benu
+\item[] \opc diferentes. \vf
+\item[] \opc congruentes. \vf
+\item[] \opc suplementarios.\vf
+\item[] \opc complementarios.
+\eenu
+\vs
+
+\item Dos o más ángulos que sumen $180\degre$ se llaman
+\vp
+
+\benu
+\item[] \opc adyacentes. \vf
+\item[] \opc congruentes. \vf
+\item[] \opc suplementarios.\vf
+\item[] \opc complementarios.
+\eenu
+\vs
+
+\item Dos o más ángulos que sumen $90\degre$ se denominan
+\vp
+
+\benu
+\item[] \opc adyacentes. \vf
+\item[] \opc congruentes. \vf
+\item[] \opc suplementarios.\vf
+\item[] \opc complementarios.
+\eenu
+\vs
+
+\pagebreak
+
+\item Si dos ángulos forman un par lineal y uno de ellos mide $85\degre$, entonces el otro ángulo mide \vspace{2mm}
+\vp
+
+\benu
+\item[] \opc $5\degre$\vf
+\item[] \opc $85\degre$\vf
+\item[] \opc $95\degre$\vf
+\item[] \opc $180\degre$
+\eenu
+\vs
+
+\item Si dos ángulos son congruentes y son complementarios, entonces cada uno mide \vp
+
+\benu
+\item[] \opc $45\degre$ \vf
+\item[] \opc $90\degre$ \vf
+\item[] \opc $180\degre$ \vf
+\item[] \opc $360\degre$
+\eenu\vs
+
+\item El suplemento de un ángulo de medida $57\degre$ es un ángulo que mide \vp
+
+\benu
+\item[] \opc $33\degre$ \vf
+\item[] \opc $90\degre$ \vf
+\item[] \opc $123\degre$ \vf
+\item[] \opc $180\degre$
+\eenu\vs
+
+\item Si dos ángulos son congruentes y suplementarios, entonces cada uno mide \vp
+
+\benu
+\item[] \opc $45\degre$ \vf
+\item[] \opc $60\degre$ \vf
+\item[] \opc $90\degre$ \vf
+\item[] \opc $180\degre$
+\eenu
+
+\pagebreak
+
+\item De acuerdo con los datos de la figura, si $m\,\angle\,TAF=35\degre$, ¿cuánto mide el $\angle\,FAM$? \vs\vs
+
+\parbox{6cm}
+{\vspace{-5cm}
+\benu
+\item[] \opc $35\degre$ \vf
+\item[] \opc $55\degre$ \vf
+\item[] \opc $125\degre$ \vf
+\item[] \opc $145\degre$
+\eenu} 
+\parbox{6cm}
+{\hspace{-4cm} \vf
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\clip(-4,-5) rectangle (8,5);
+\draw (2.,2.)-- (7.,2.);
+\draw (4.5,2.)-- (4.5,4.4);
+\draw (4.5,2.)-- (6.3,3.74);
+\draw (4.5,2.)-- (3.26,0.8);
+\draw (3.26,0.8)-- (2.72,0.28);
+\draw [->](3.26,0.8)-- (2.72,0.28);
+\draw [->](2.,2.)-- (1.42,2.);
+\draw [->](7.,2.)-- (7.6,2.);
+\draw [->](4.5,4.4)-- (4.5,5.);
+\draw [->](6.3,3.74)-- (6.8,4.2);
+\draw (4.14,2.)-- (4.5,2.);
+\draw (4.5,2.)-- (4.5,2.36);
+\draw (4.5,2.36)-- (4.14,2.36);
+\draw (4.14,2.36)-- (4.14,2.);
+\begin{scriptsize}
+\draw [fill=black] (2.,2.) circle (1.0pt);
+\draw[color=black] (1.96,2.38) node {\large $F$};
+\draw [fill=black] (7.,2.) circle (1.0pt);
+\draw[color=black] (6.98,2.34) node {\large $S$};
+\draw [fill=black] (4.5,2.) circle (1.0pt);
+\draw[color=black] (4.6,1.6) node {\large $A$};
+\draw [fill=black] (4.5,4.4) circle (1.0pt);
+\draw[color=black] (4,4.46) node {\large $C$};
+\draw [fill=black] (6.3,3.74) circle (1.0pt);
+\draw[color=black] (6.55,3.44) node {\large $M$};
+\draw [fill=black] (3.26,0.8) circle (1.0pt);
+\draw[color=black] (3.5,0.5) node {\large $T$};
+\end{scriptsize}
+\end{tikzpicture}
+}
+
+\vspace{-3cm}
+
+\item De acuerdo con los datos de la figura, si $\stackrel{\longleftrightarrow}{PC}$ y $\stackrel{\longleftrightarrow}{WG}$ son rectas secantes y  $m\,\angle\,HEC=90\degre$ entonces dos ángulos complementarios corresponden a
+
+\vspace{1cm}
+\parbox{5.5cm}
+{\vspace{-1cm}
+\benu
+\item[] \opc $\angle PEW$ y $\angle GEH$. \vs
+\item[] \opc $\angle PEH$ y $\angle HEC$. \vs
+\item[] \opc $\angle HEG$ y $\angle PEH$. \vs
+\item[] \opc $\angle GEC$ y $\angle PEW$.
+\eenu}
+\parbox{8cm}
+{\hspace{1cm}\vspace{-3cm}
+\begin{tikzpicture}[line cap=round, line join=round, >=triangle 45,x=1.0cm,y=1.0cm]
+\clip(-3,-4) rectangle (6,5);
+\draw [<->](-2.56,1.48) -- (5.38,1.48);
+\draw [<->](-2.152,-0.354)-- (5.103,3.35);
+\draw [<-](1.37,4.887)-- (1.432,1.499);
+\begin{scriptsize}
+\draw [fill=black] (1.44,1.48) circle (1.5pt);
+\draw[color=black] (1.56,1) node {\large $E$};
+\draw [fill=black] (4.22,2.9) circle (1.5pt);
+\draw[color=black] (4.12,3.3) node {\large $G$};
+\draw [fill=black] (1.4,4.18) circle (1.5pt);
+\draw[color=black] (0.95,4.26) node {\large $H$};
+\draw [fill=black] (-1.46,1.48) circle (1.5pt);
+\draw[color=black] (-1.38,1.9) node {\large $P$};
+\draw [fill=black] (4.44,1.48) circle (1.5pt);
+\draw[color=black] (4.42,1.16) node {\large $C$};
+\draw [fill=black] (-1.101,0.181) circle (1.5pt);
+\draw[color=black] (-0.86,-0.15) node {\large $W$};
+\end{scriptsize}
+\end{tikzpicture}
+}
+\eenu
+
+\pagebreak
+
+{\bf B. Respuesta Corta.} Los siguientes ejercicios deben ser resueltos en forma concisa y breve. Sea ordenado y cuidadoso en sus respuestas. (Total 12 puntos, 1 punto cada respuesta correcta).\vp
+
+\benu
+\item De acuerdo con la figura adjunta, si $\stackrel{\longleftrightarrow}{TS}\,\perp\,\stackrel{\longrightarrow}{OG}$, responda lo que se le solicita en cada espacio. \vp
+
+\begin{minipage}{\linewidth}
+\hspace{-2cm}
+      \begin{minipage}{0.45\linewidth}
+\begin{tikzpicture}[line cap=round, line join=round, >=triangle 45,x=1.0cm,y=1.0cm]
+\clip(-3,-4) rectangle (6,5);
+\draw [shift={(1.44,1.48)},line width=0.4pt] (0,0) -- (180.:1.5) arc (180.:207.05755291084134:1.5) -- cycle;
+\draw [<->](-2.56,1.48) -- (5.38,1.48);
+\draw [<->](-2.152,-0.354)-- (5.103,3.35);
+\draw [<-](1.37,4.887)-- (1.432,1.499);
+\begin{scriptsize}
+\draw [fill=black] (1.44,1.48) circle (1.5pt);
+\draw[color=black] (1.56,1) node {\large $O$};
+\draw [fill=black] (4.22,2.9) circle (1.5pt);
+\draw[color=black] (4.12,3.3) node {\large $P$};
+\draw [fill=black] (1.4,4.18) circle (1.5pt);
+\draw[color=black] (0.95,4.26) node {\large $G$};
+\draw [fill=black] (-1.46,1.48) circle (1.5pt);
+\draw[color=black] (-1.38,1.9) node {\large $T$};
+\draw [fill=black] (4.44,1.48) circle (1.5pt);
+\draw[color=black] (4.42,1.16) node {\large $S$};
+\draw [fill=black] (-1.101,0.181) circle (1.5pt);
+\draw[color=black] (-0.86,-0.15) node {\large $M$};
+\draw[color=black] (-0.55,1.1) node {\large $30\textrm{\degre}$};
+\end{scriptsize}
+\end{tikzpicture}
+\vs\vs
+\end{minipage}
+\hspace{2cm}
+\begin{minipage}{0.65\linewidth}
+\vspace{-4cm}
+\benu
+\item Un par lineal \compl.
+\vp
+\item Un ángulo recto \compl.
+\vp
+\item Un ángulo agudo \compl.
+\vp
+\item Un ángulo obtuso \compl.
+\vp
+\item La medida del $\angle\,TOP$ \compl.
+\vp
+\item La medida del $\angle\,POS$ \compl.
+\eenu
+\end{minipage}
+\end{minipage}
+
+\vspace{-1.5cm}
+\item Conteste de manera breve lo que se le solicita en cada espacio. \vs
+
+\benu
+\item Si un ángulo mide $91\degre$, su suplemento debe medir \hrulefill. \vs
+\item Dos rectas perpendiculares forman 2 pares de ángulos \hrulefill. \vs
+\item El ángulo que forma un par lineal con otro de $117\degre$ debe medir \hrulefill. \vs
+\item El complemento de un ángulo de medida $13\degre$ mide exactamente \hrulefill. \vs
+\item Un ángulo opuesto por el vértice con uno de $39\degre$, mide exactamente \hrulefill. \vs
+\item La medida del ángulo suplementario de un ángulo obtuso se clasifica como \hrulefill. \vs
+\eenu
+\eenu
+
+\pagebreak
+
+{\bf II PARTE. Desarrollo.} Resuelva los siguientes problemas con orden y claridad. Deben aparecer todos los procedimientos que justifican la respuesta, en el espacio indicado. (Total 8 puntos). \vp
+
+\benu
+\item Según los datos de la figura, las rectas $\stackrel{\leftarrow\!\!\!\lra}{RZ}$ y $\stackrel{\leftarrow\!\!\!\lra}{DS}$ se intersecan en el punto $A$. Encuentre las medidas de $\angle SAN$, $\angle DAR$ y $\angle PAZ$.  \hfill{\bf (5 puntos)} \
+
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\clip(-4.3,-5.14) rectangle (10.02,6.3);
+\draw [shift={(0.,0.)}] (0,0) -- (-10.738897100905442:1.) arc (-10.738897100905442:45.22646435234117:1.) -- cycle;
+\draw [shift={(0.,0.)}] (0,0) -- (-134.53794727856925:1.) arc (-134.53794727856925:-102.45824644000491:1.) -- cycle;
+\draw [shift={(0.,0.)}] (0,0) -- (115.49279547280312:1.) arc (115.49279547280312:169.8409440041532:1.) -- cycle;
+\draw [<->](-2.46,-2.5)-- (2.48,2.5);
+\draw [<->](-3.46,0.62)-- (3.46,-0.65);
+\draw [->](0.,0.)-- (-1.516,3.17);
+\draw [->](0.,0.)-- (-0.76,-3.43);
+\begin{scriptsize}
+\draw [fill=black] (0.,0.) circle (1.0pt);
+\draw[color=black] (0.14,-0.34) node {\large $A$};
+\draw[color=black] (-2.5,-2) node {\large $D$};
+\draw[color=black] (2.43,1.95) node {\large $S$};
+\draw[color=black] (-3.1,0.94) node {\large $R$};
+\draw[color=black] (3,-1) node {\large $Z$};
+\draw[color=black] (-1.,3.) node {\large $N$};
+\draw[color=black] (-0.35,-3.16) node {\large $P$};
+\draw[color=black] (1.55,0.4) node {\large $57\textrm{\degre}$};
+\draw[color=black] (-0.71,-1.38) node {\large $21\textrm{\degre}$};
+\draw[color=black] (-1.2,0.68) node {\large $43\textrm{\degre}$};
+\end{scriptsize}
+\end{tikzpicture}
+
+\vs\vs
+
+\item ¿Cuál es el suplemento del complemento de un ángulo que mide $75\degre$? \hfill{\bf (3 puntos)}
+\eenu
+
+\end{document}
